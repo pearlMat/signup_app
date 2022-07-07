@@ -1,0 +1,197 @@
+.bg-overlay {
+  overflow: hidden;
+  height: 186px;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)),
+    url("./images/header.jpg") center center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.search {
+  padding-top: 120px;
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm,
+.form-field {
+  width: 100%;
+  border-bottom: 3px solid gainsboro;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  text-align: center;
+  font-style: italic;
+  color: #d4d4d4;
+  padding: 5px;
+  font-size: 23px;
+  height: 48px;
+
+  outline: none;
+}
+
+.fa {
+  width: 40px;
+  height: 48px;
+
+  background: white;
+  text-align: center;
+  color: #323232;
+
+  font-size: 40px;
+}
+.intro-col {
+  background-color: #ffffff !important;
+}
+.intro-heading {
+  font-size: 36px;
+  color: #179dc7;
+}
+
+.intro-text {
+  color: #323232;
+  font-size: 18px;
+}
+
+.intro-icon {
+  /*background: #F9F9F9;*/
+}
+.intro-icon .fa {
+  font-size: 70px;
+  display: block;
+  text-align: center;
+  width: 100%;
+
+  
+  
+}
+
+.icon-text {
+  color: #323232;
+  font-size: 16px;
+}
+.intro-img{
+  position: relative; 
+  width: 100%; 
+}
+
+.img-text{
+  position: absolute; 
+   top: 270px; 
+   left: 0; 
+   font-weight: 200;
+   width: 100%; 
+   color: #fff;
+}
+
+.intro-img img {
+  width: 530px;
+}
+
+.intro-minor {
+  font-size: 13px;
+  font-style: italic;
+  color: #afafaf;
+}
+
+.login-form {
+  background-color: #f9f9f9;
+  padding-top: 120px !important;
+}
+.login-form img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+}
+
+.field-container {
+  padding-top: 30px;
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.form-field {
+  background-color: #f9f9f9;
+  color: #b0b0b0;
+}
+
+.reset-link {
+  color: #179dc7;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.button {
+  background-color: #179dc7;
+  border: none;
+  color: white;
+  font-weight: 500;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.register-links {
+  margin-top: 20px;
+}
+.register-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.not-registered {
+  color: #323232;
+  font-size: 16px;
+}
+.registered {
+  color: #179dc7;
+  font-size: 16px;
+}
+
+.app-links img {
+  width: 220px;
+}
+
+.footer {
+  background-color: #000;
+  margin-top: 30px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.footer-list {
+  list-style-type: none;
+}
+
+.footer-info {
+  font-weight: 700;
+}
+.footer-flag img {
+  width: 30px;
+}
+
+.social [class*="fa fa-"] {
+  background-color: #fff;
+  border-radius: 30px;
+  color: #333;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  margin: auto 3px;
+  width: 30px;
+  font-size: 15px;
+  text-align: center;
+}
+
